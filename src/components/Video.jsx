@@ -15,9 +15,9 @@ const Video = () => {
             <div className="content">
                 <h1> Galaxy Travel</h1>
                 <p>World first civilian space travel </p>
-                <div>
-                <Link to="/training" className='btn'> Training</Link>
-                <Link to="/contact" className='btn btn-light'> Launch</Link>
+                <div className = "buttons">
+                <Link to="/training" className='btn' style={{ color: "gray", textDecoration: 'none' }}> Training</Link>
+                <Link to="/contact" className='btn-btn light' style={{ color: "white ", textDecoration: 'none' }}> Launch</Link>
             </div>
             </div>
             

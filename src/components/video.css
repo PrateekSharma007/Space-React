@@ -35,3 +35,23 @@
     margin-bottom: 1.6rem;
     color: white;
 }
+
+.btn { 
+
+    /* margin-right: 10px; */
+    font-size: 1.5rem;
+    border: 2px solid white;
+    padding: 5px 14px;
+    
+}
+
+.btn :hover{
+    color: white
+}
+
+.btn-btn{
+    font-size: 1.5rem;
+    border: 2px solid gray;
+    padding: 5px 14px;
+}
+
