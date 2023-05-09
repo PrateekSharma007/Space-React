@@ -1,9 +1,11 @@
 #video{
     position: fixed;
     width: 100%;
+    height: 100vh;
     object-fit: cover;
     z-index : -1;
 }
+
 
 .hero{
     height: 100vh;
@@ -11,11 +13,25 @@
     object-fit: contain;
 }
 
-.hero .content {
+.hero .content{
     text-align: center;
     position: absolute;
     margin: auto;
     width: 100%;
     height: 100%;
+    top : 25vh;
+}
 
+.content h1{
+    font-size :5rem ; 
+    color: white;
+    font-weight: bold;
+}
+
+.hero p{
+    font-size: 3rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-bottom: 1.6rem;
+    color: white;
 }
