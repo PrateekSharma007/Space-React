@@ -2,19 +2,15 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import HeroImage from '../components/HeroImage'
-import Cont from '../components/Cont'
 
-
-const Training = () => {
+const Contact = () => {
   return (
     <div>
-    
-        <Navbar /> 
-        <HeroImage heading = "TRAINING" text = "PRE-FLIGHT && IN-FlIGHT TRAINING " />
-        <Cont />
+        <Navbar />
+        <HeroImage heading = "CONTACT US BY FILLING THE FORM" text = "THANK YOU" />
         <Footer />
     </div>
   )
 }
 
-export default Training
+export default Contact
